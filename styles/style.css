@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: .05em;
+}
+
+body{
+    text-align: center;
+}
+
+img {
+    display: block;
+
+}
+
+nav img {
+    width: 1.2em;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+nav > p, nav>div {
+    margin-left: 1.5em;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+.circleImage{
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(93, 14, 145, 0.829);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.34rem;
+    font-weight: 900;
+    margin-top: -0.5em;
+}
+.circleImage a{
+    color: #fff;
+}
+.googleImagee{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.googleImage{
+    padding-bottom: 2em;
+}
+
+main {
+    padding-top: 7em;
+    
+}
+main p a {
+    margin-left: .5em;
+}
+[type="search"] {
+    display: block;
+    width: 80%;
+    padding: 1em 2em;
+    border-radius: 2em;
+    outline: none;
+    border: .1em solid #dfdfdf;
+    margin: 1em auto 2.2em;
+    
+}
+
+[type="search"]:hover, [type="submit"]:hover{
+    box-shadow: 0 0 .1em 0em grey;
+}
+
+[type="submit"] {
+    padding: .8em 1.5em;
+    background-color: #f9f9f9;
+    outline: none;
+    border: none;
+    margin-right: 1em;
+    margin-bottom: 2.5em;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+main a{
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #eff2f0;
+    width: 100%;
+    font-size: 1.05rem;
+    color: rgb(97, 96, 96);
+}
+
+.country{
+    border-bottom: .1em solid lightgrey;
+    padding: 1.3em;
+    text-align: left;
+    
+    
+}
+.country ~ div {
+    padding: 1em;
+}
+
+footer a {
+    color:#555555;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.footerLinks1 {
+    margin-right: 3em;
+}
+
