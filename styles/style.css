@@ -75,13 +75,20 @@ main p a {
 }
 [type="search"] {
     display: block;
+    
     width: 80%;
+    
     padding: 1em 2em;
     border-radius: 2em;
     outline: none;
     border: .1em solid #dfdfdf;
     margin: 1em auto 2.2em;
     
+}
+@media(min-width: 800px) {
+    [type="search"] {
+        width: 45em;
+    }
 }
 
 [type="search"]:hover, [type="submit"]:hover{
@@ -130,15 +137,41 @@ footer a {
 }
 
 .footerLinks {
-    display: flex;
+    display: grid;
     justify-content: center;
-    flex-wrap: wrap;
+    align-content: center;
 
 }
+
+.carbonContainer{
+    grid-row: 1;
+    grid-column: 1/4;
+}
+.footerLinks2{
+    grid-row: 2;
+}
+
 
 
 
 .footerLinks1 {
     margin-right: 3em;
+    grid-row: 2;
+}
+@media(min-width: 1000px){
+    
+    .footerLinks{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .carbonContainer{
+        order: 2;
+
+    }
+
+    .footerLinks2{
+        order: 3
+    }
 }
 
