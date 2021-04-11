@@ -19,7 +19,9 @@ img {
     display: block;
 
 }
-
+a:hover{
+    text-decoration: underline;
+}
 nav img {
     width: 1.2em;
 }
